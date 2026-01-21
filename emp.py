@@ -1,0 +1,1 @@
+select empid, count(*) as ct from ctr group by empid
