@@ -8,4 +8,4 @@ inner join
 
 (select tiv_2015, count(*) ct1 from Insurance group by tiv_2015 having ct1>1) b
 
-on i.tiv_2015=b.tiv_2015
+on i.tiv_2015=b.tiv_2015 ;
